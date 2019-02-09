@@ -1,5 +1,8 @@
 # Compiled class file
+#.gitignore
 *.class
+
+/*/target/
 
 # Log file
 *.log
