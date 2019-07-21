@@ -1,4 +1,4 @@
-package com.home.luv.kafka.consumer.error.handler;
+package com.home.study.kafka.consumer.error.handler;
 
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.slf4j.Logger;
@@ -14,9 +14,9 @@ public class CommonErrorHandler implements BatchErrorHandler {
     private static final Logger LOGGER = LoggerFactory.getLogger(CommonErrorHandler.class);
     private final String containerId;
     private final KafkaListenerEndpointRegistry registry;
-    private final com.home.luv.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler autoRestartHandler;
+    private final com.home.study.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler autoRestartHandler;
 
-    public CommonErrorHandler(String topic, KafkaListenerEndpointRegistry registry, com.home.luv.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler autoRestartHandler) {
+    public CommonErrorHandler(String topic, KafkaListenerEndpointRegistry registry, com.home.study.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler autoRestartHandler) {
         this.containerId = String.format("%s.container", topic);
         this.registry = registry;
         this.autoRestartHandler = autoRestartHandler;

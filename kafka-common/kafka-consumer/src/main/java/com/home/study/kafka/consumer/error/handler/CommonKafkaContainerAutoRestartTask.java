@@ -1,4 +1,4 @@
-package com.home.luv.kafka.consumer.error.handler;
+package com.home.study.kafka.consumer.error.handler;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +28,7 @@ public class CommonKafkaContainerAutoRestartTask implements Runnable {
     public void run() {
         try {
             LOGGER.info("Running KafkaContainerAutoRestartTask.. trying to restart {} containers {}", stoppedContainer.size(), stoppedContainer);
-            synchronized (com.home.luv.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler.class) {
+            synchronized (com.home.study.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler.class) {
                 Set<String> containersRestarted = new HashSet<>();
                 stoppedContainer.stream().filter(this::shouldAttemptRestart).forEach(containerId -> restartContainer(containerId, containersRestarted));
             }

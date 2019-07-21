@@ -1,6 +1,6 @@
  package com.home.study.kafka.config;
 
- import com.home.luv.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler;
+ import com.home.study.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler;
  import com.home.study.kafka.consumer.config.AbstractKafkaConsumerConfig;
  import org.apache.kafka.common.serialization.Deserializer;
  import org.apache.kafka.common.serialization.StringDeserializer;

@@ -1,8 +1,8 @@
 package com.home.study.kafka.application;
 
-import com.home.luv.kafka.common.data.SimpleKafkaPayload;
-import com.home.luv.kafka.data.load.constant.DataloadSource;
-import com.home.luv.kafka.data.load.constant.SourceContext;
+import com.home.study.kafka.common.data.SimpleKafkaPayload;
+import com.home.study.kafka.data.load.constant.DataloadSource;
+import com.home.study.kafka.data.load.constant.SourceContext;
 import com.home.study.kafka.producer.publisher.KafkaPublisherService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

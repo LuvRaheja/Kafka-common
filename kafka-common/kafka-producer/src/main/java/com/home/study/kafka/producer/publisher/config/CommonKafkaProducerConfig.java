@@ -1,6 +1,6 @@
 package com.home.study.kafka.producer.publisher.config;
 
-import com.home.luv.kafka.common.data.KafkaPayload;
+import com.home.study.kafka.common.data.KafkaPayload;
 import com.home.study.kafka.producer.publisher.GenericKafkaPublisher;
 import com.home.study.kafka.producer.publisher.KafkaPublisher;
 import org.apache.kafka.clients.producer.ProducerConfig;

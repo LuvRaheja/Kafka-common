@@ -1,8 +1,8 @@
 package com.home.study.kafka.producer.publisher.builder;
 
-import com.home.luv.kafka.common.data.KafkaPayload;
-import com.home.luv.kafka.common.data.KafkaPublisherContext;
-import com.home.luv.kafka.data.load.constant.PayloadType;
+import com.home.study.kafka.common.data.KafkaPayload;
+import com.home.study.kafka.common.data.KafkaPublisherContext;
+import com.home.study.kafka.data.load.constant.PayloadType;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 

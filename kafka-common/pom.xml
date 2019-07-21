@@ -16,7 +16,7 @@
 		</plugins>
 	</build>
 
-	<groupId>com.home.luv</groupId>
+	<groupId>com.home.study</groupId>
 	<artifactId>kafka-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kafka-common</name>

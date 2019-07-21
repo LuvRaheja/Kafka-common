@@ -1,4 +1,4 @@
-package com.home.luv.kafka.consumer.error.handler;
+package com.home.study.kafka.consumer.error.handler;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.config.KafkaListenerEndpointRegistry;
@@ -23,7 +23,7 @@ public class KafkaContainerAutoRestartHandler {
         ScheduledExecutorService scheduledExecutor = Executors.newSingleThreadScheduledExecutor();
         this.stoppedContainers = new HashSet<>();
         Map<String, Integer> containerRestartCount = new HashMap<>();
-        scheduledExecutor.scheduleWithFixedDelay(new CommonKafkaContainerAutoRestartTask(registry, stoppedContainers, containerRestartCount, maxRetryCount),
+        scheduledExecutor.scheduleWithFixedDelay(new com.home.study.kafka.consumer.error.handler.CommonKafkaContainerAutoRestartTask(registry, stoppedContainers, containerRestartCount, maxRetryCount),
                 initialDelay, timeInterval, TimeUnit.SECONDS);
     }
 

@@ -1,4 +1,4 @@
-package com.home.luv.kafka.data.load.constant;
+package com.home.study.kafka.data.load.constant;
 
 public enum PayloadType {
     TWITTER,

@@ -1,4 +1,4 @@
-package com.home.luv.kafka.common.data;
+package com.home.study.kafka.common.data;
 
 public interface KafkaPayload {
 

@@ -1,4 +1,4 @@
-package com.home.luv.kafka.common.data;
+package com.home.study.kafka.common.data;
 
 public class SimpleKafkaPayload implements KafkaPayload {
     private final String message;

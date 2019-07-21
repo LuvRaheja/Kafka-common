@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>kafka-common</artifactId>
-        <groupId>com.home.luv</groupId>
+        <groupId>com.home.study</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -12,19 +12,19 @@
     <artifactId>kafka-application</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.home.luv</groupId>
+            <groupId>com.home.study</groupId>
             <artifactId>kafka-common-data</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.home.luv</groupId>
+            <groupId>com.home.study</groupId>
             <artifactId>kafka-producer</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.home.luv</groupId>
+            <groupId>com.home.study</groupId>
             <artifactId>kafka-consumer</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>

@@ -1,6 +1,6 @@
 package com.home.study.kafka.producer.callback;
 
-import com.home.luv.kafka.common.data.KafkaPayload;
+import com.home.study.kafka.common.data.KafkaPayload;
 import org.apache.kafka.clients.producer.RecordMetadata;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

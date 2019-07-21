@@ -1,7 +1,7 @@
 package com.home.study.kafka.consumer.config;
 
-import com.home.luv.kafka.consumer.error.handler.CommonErrorHandler;
-import com.home.luv.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler;
+import com.home.study.kafka.consumer.error.handler.CommonErrorHandler;
+import com.home.study.kafka.consumer.error.handler.KafkaContainerAutoRestartHandler;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
